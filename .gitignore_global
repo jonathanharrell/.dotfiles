@@ -1,0 +1,10 @@
+.DS_Store
+*.exe
+*.zip
+*.gz
+*.sql
+*.sqlite
+*.map
+tags
+Thumbs.db
+.php_cs.cache

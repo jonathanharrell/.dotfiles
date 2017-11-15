@@ -1,0 +1,36 @@
+# Homebrew
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:$HOME/.composer/vendor:$HOME/.composer/vendor/bin:vendor/bin"
+export MANPATH="/usr/local/man:$MANPATH"
+
+# OpenSSL
+export LDFLAGS="-L/usr/local/opt/openssl/lib"
+export CFLAGS="-I/usr/local/opt/openssl/include"
+
+# npm
+export PATH="$HOME/node_modules/bin:$PATH"
+
+# PHPBrew
+source $HOME/.phpbrew/bashrc
+
+# Java
+export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home"
+export PATH=${JAVA_HOME}/bin:$PATH
+
+# Ruby
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# AVN
+[[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
+
+# Sublime
+export EDITOR="subl -w"
+
+# Z
+. ~/z.sh
