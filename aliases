@@ -6,8 +6,8 @@ alias drupal-clear-all="drush @sites -y cr all"
 alias devdesktop-sloan='export PHP_ID=php7_0; export PATH="/Applications/DevDesktop/$PHP_ID/bin:/Applications/DevDesktop/mysql/bin:/Applications/DevDesktop/tools:$PATH" && cd "/Users/jonathanharrell/Sites/devdesktop/sloanvalve-dev/docroot"'
 
 # Config files
-alias hosts="code /etc/hosts"
-alias zshrc="code ~/.zshrc"
+alias hosts="subl /etc/hosts"
+alias zshrc="subl ~/.zshrc"
 
 # Generic terminal
 alias c="clear"

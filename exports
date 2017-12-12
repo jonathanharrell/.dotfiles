@@ -1,7 +1,8 @@
-# Homebrew
-export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:$HOME/.composer/vendor:$HOME/.composer/vendor/bin:vendor/bin"
 export MANPATH="/usr/local/man:$MANPATH"
+
+# Homebrew
+export PATH="/usr/local/bin:$PATH"
 
 # OpenSSL
 export LDFLAGS="-L/usr/local/opt/openssl/lib"
@@ -12,6 +13,10 @@ export PATH="$HOME/node_modules/bin:$PATH"
 
 # PHPBrew
 source $HOME/.phpbrew/bashrc
+
+# Composer
+export PATH="$HOME/.composer/vendor/bin:vendor/bin:$PATH"
+export PATH="vendor/bin:$PATH"
 
 # Java
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/jdk1.8.0_141.jdk/Contents/Home"
