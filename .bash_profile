@@ -6,3 +6,5 @@ fi
 source ~/.dotfiles/exports
 source ~/.dotfiles/aliases
 [[ -s "$HOME/.avn/bin/avn.sh" ]] && source "$HOME/.avn/bin/avn.sh" # load avn
+
+export PATH="$PATH:/Applications/DevDesktop/tools"
