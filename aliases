@@ -16,7 +16,7 @@ alias l="ls -la -F"
 
 # Project aliases
 alias arktura="cd ~/Sites/arktura/wp-content/themes/arktura"
-alias cja="cd ~/Sites/cjarellano/app/public/wp-content/themes/cjarellano"
+alias cja="cd ~/Sites/cjarellano/wp-content/themes/cjarellano"
 alias jh="cd ~/Sites/jonathanharrell/wp-content/themes/jonathanharrell"
 alias sites="cd ~/Sites"
 alias sloan="cd ~/Sites/devdesktop/sloanvalve-dev/docroot/themes/sloan"
